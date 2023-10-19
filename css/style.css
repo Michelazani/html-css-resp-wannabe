@@ -131,10 +131,11 @@ img {
 
 @media screen and (max-width: 768px) {
 
-    .container {
-        width: 768px;
-        margin: 0 auto;
-        padding: 0 20px;
+    .lessons .container,
+    .steps .container,
+    .why-us .container
+    {
+        width: 100%;
     }
     
 }
@@ -144,6 +145,7 @@ img {
 @media screen and (max-width: 480px) {
 
     h1 {
+        width: 100%;
         font-size: 3.2rem;
     }
 
@@ -155,7 +157,7 @@ img {
     .steps .container,
     .why-us .container
     {
-        width: 480px;
+        width: 100%;
     }
     
     .lessons div .row,
@@ -204,14 +206,6 @@ img {
     .why-us .card {
         margin-top: 2rem;
     }
-
-    
-
-
-
-
-
-
 
 }
 
