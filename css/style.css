@@ -85,6 +85,7 @@ img {
     margin-bottom: 1rem;
 }
 
+
 /* STEPS SECTION */
 .steps {
     margin: 3rem 0;
@@ -127,3 +128,45 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+ @media screen and (max-width: 768px) {
+
+    .container {
+        width: 768px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        width: 480px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .text-center {
+        text-align: center;
+        font-size: 50px;
+    }
+}
+
+
+
+
