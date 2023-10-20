@@ -159,6 +159,10 @@ img {
     {
         width: 100%;
     }
+
+    .why-us .container{
+        background-color: black;
+    }
     
     .lessons div .row,
     .steps div .row,
@@ -207,7 +211,15 @@ img {
         margin-top: 2rem;
     }
 
+    .why-us {
+        margin-bottom: 0;
+    }
+    
+    .steps {
+        margin: 0;
+    }
 }
+
 
 
 
